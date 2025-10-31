@@ -244,7 +244,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Initialize Gemini API
-GEMINI_API_KEY = "AIzaSyCjr4ICLBSfmgc3MQB7KhfbA9WByzPNvVU"
+GEMINI_API_KEY = ""
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Initialize session state
@@ -604,3 +604,4 @@ Report Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 if __name__ == "__main__":
 
     main()
+
